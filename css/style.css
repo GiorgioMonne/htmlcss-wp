@@ -12,6 +12,8 @@
 .pagina{
     width: 80%;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    
 } 
 
 .clearfix::after{
@@ -40,6 +42,8 @@
 #logo{
     height: 60px;
     margin-bottom: 20px;
+    padding-right: 10px;
+    border-right: solid 0.5px;
 }
 
 nav{
@@ -52,6 +56,7 @@ nav li{
     float: left;
     margin-right: 10px;
     text-transform: uppercase;
+    color: rgb(106, 105, 105);
 
 }
 
@@ -62,6 +67,7 @@ nav li{
     margin-bottom: 20px;
     height: 500px;
     position: relative;
+    border-radius: 10px;
     /* background-color: rgb(235, 198, 37); */
 }
 
@@ -82,6 +88,7 @@ nav li{
 .mezzo{
     /* background-color: aquamarine; */
     margin-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .container{
@@ -128,6 +135,7 @@ nav li{
     background-position: center;
     margin-bottom: 20px;
     height: 250px;
+    border-radius: 10px;
 }
 
 .spazio{
@@ -137,7 +145,8 @@ nav li{
 /* ******footer***** */
 
 footer{
-    /* background-color: rgb(48, 17, 48); */
+    padding-bottom: 20px;
+    /* -color: rgb(48, 17, 48);  */
 }
 
 footer > div{
