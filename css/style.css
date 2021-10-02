@@ -80,25 +80,8 @@ nav li{
 /* ******main***** */
 
 .mezzo{
+    /* background-color: aquamarine; */
     margin-bottom: 10px;
-}
-
-#titl{
-    font-size: 40px;
-}
-
-.colonna1, .colonna2{
-    width: 20%;
-    background-color: rgb(0, 153, 255);
-    height: 500px;
-}
-
-.centrale{
-    width: 54%;
-    background-color:rgb(0, 153, 255); 
-    margin: 0 3%;
-    height: 500px;
-    margin-bottom: 20px;
 }
 
 .container{
@@ -108,14 +91,61 @@ nav li{
     /* background-color:rgb(0, 153, 255); */
 }
 
-.mezzo{
-    /* background-color: aquamarine; */
-    margin-bottom: 10px;
+#titl{
+    font-size: 40px;
+}
+
+.colonna1, .colonna2{
+    width: 20%;
+    height: 500px;
+}
+
+.centrale{
+    width: 54%;
+    margin: 0 3%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+/* .azzurro{
+    background-color:rgb(0, 153, 255); 
+} */
+
+.foto{
+    background-image: url(../img/img-1.jpg);
+}
+
+.foto2{
+    background-image: url(../img/banner-2.jpg);
+}
+
+.foto3{
+    background-image: url(../img/img-3.jpg);
+}
+
+.foto , .foto2 , .foto3 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+.spazio{
+    padding-bottom: 10px ;
 }
 
 /* ******footer***** */
 
 footer{
-    height: 40px;
-    background-color: rgb(48, 17, 48);
+    /* background-color: rgb(48, 17, 48); */
+}
+
+footer > div{
+    height: 40;
+    line-height: 40px;
+    text-align: center;
+}
+
+#cuore{
+    color: red;
 }
