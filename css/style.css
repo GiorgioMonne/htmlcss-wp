@@ -9,7 +9,7 @@
 
 /* ******body***** */
 
-body{
+.pagina{
     width: 80%;
     margin: auto;
 } 
@@ -33,13 +33,12 @@ body{
 /* ******header***** */
 
 .top{
-    background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
 
 #logo{
     height: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav{
@@ -51,7 +50,27 @@ nav li{
     list-style: none;
     float: left;
     margin-right: 10px;
-    margin-bottom: 0px;
+    text-transform: uppercase;
+
+}
+
+.jumbotron{
+    background-image: url();
+    margin-bottom: 20px;
+    height: 500px;
+    position: relative;
+}
+
+.testo-jumbo{
+    width: 60%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.testo-jumbo > h2{
+    font-size: 30px;
 }
 
 /* ******main***** */
